@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Tecnologia de la Programacion en Red 2020
                 </div>
 
                 <div class="links">
