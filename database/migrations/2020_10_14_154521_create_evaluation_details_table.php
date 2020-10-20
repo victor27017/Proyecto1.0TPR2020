@@ -14,7 +14,9 @@ class CreateEvaluationDetailsTable extends Migration
     public function up()
     {
         Schema::create('evaluation_details', function (Blueprint $table) {
-            $table->id(eva_details_id);
+            $table->id();
+            $table->string('respuesta_e');
+            $table->integer('puntos');
             $table->timestamps();
         });
     }

@@ -14,7 +14,11 @@ class CreateMatthersTable extends Migration
     public function up()
     {
         Schema::create('matthers', function (Blueprint $table) {
-            $table->id(matters_id);
+            $table->id();
+            $table->string('name');
+            $table->string('description');
+            $table->string('course');
+            $table->string('grade');
             $table->timestamps();
         });
     }
